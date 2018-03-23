@@ -1,0 +1,23 @@
+
+html { 
+    background: url(https://d3jkudlc7u70kh.cloudfront.net/milky-way-fact.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.jumbotron {
+    height: 350px;
+    padding-top:3%;
+    padding-bottom: 1%;
+}
+.planet {
+    text-size: 26px;
+}
+
+#output {
+    text-size: 36px;
+}
+
+
+

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>ASTRO WEIGHT CALCULATOR</title>
+  </head>
+  <body id="main" class="bg-dark text-white">
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
+        <div class="container">
+            <a class="navbar-brand order-1 mr-0" href="#http://www.lanefragomeli.com" target ="_blank">Presented by Lane Fragomeli</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#about">About</a>
+                <a class="nav-item nav-link" href="#speakers">Space Camp</a>
+                <a class="nav-item nav-link" href="#schedule">NASA</a>
+          </div>
+        </div>
+    </div>
+    </nav>  
+<!--    /nav bar-->
+    <!--JUMBOTRON START-->
+<div class="jumbotron jumbotron-fluid bg-dark">
+    <div class="container text-sm-center pt-3">
+      <h1 class="display-1 text-white">ASTRO WEIGHT CALCULATOR</h1>
+      <p id="tagline" class="display-5 lead text-white">Ever wonder what you would weigh on other planets? Try this easy to use converter.</p>
+      </div>
+    <!-- JUMBOTRON STOP -->
+      <hr>
+      <div class="container">
+          <div class="container-fluid">
+              <!--    about-->
+              <div id="about" class="row">
+                <div class="col-6 lg order-lg-1">
+                  <h3 class= "mb-4">About The Astro Weight Calculator</h3>
+                  <form>
+                      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                      <strong>Space Camp Blasts Off Soon!</strong> Sign up today!
+                      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                      <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name">
+                      </div>
+                      <div class="form-group">
+                        <label for="user-weight">Enter Your Weight Here</label>
+                        <input type="user-weight" class="form-control" placeholder="Weight (lbs)" id="user-weight"> 
+                      </div>
+                      
+                      <div class="form-group">
+                      <label class="planet" for="planet">Select A Planet</label>
+                      <select class="form-control" id="planets"></select>
+                      </div>
+
+                      <hr class="mb-4">
+                      <button id="calculate-button" type="button" class="btn btn-warning btn-lg btn-block text-white">CALCULATE</button>
+
+                   </form>
+                </div>
+                <div class="col-lg order-lg-2">
+                    <div class= container flex>
+                        <div class="output">
+                            <p id="output"></p>
+                        </div>
+                        </div>
+                        <div class="image">
+                            <div id="image"></div>
+                        </div>
+                
+                </div>
+              </div>
+
+          
+        
+        </div>
+       </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
+
+
